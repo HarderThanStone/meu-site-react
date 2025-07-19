@@ -3,6 +3,11 @@ import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Projetos from './pages/Projetos';
 import Contatos from './pages/Contatos';
+import Page404 from './pages/Page404';
+
+<Route path="*" element={<Page404 />} />
+
+
 
 function AppRoutes() {
   return (
